@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { initialProducts, categories } from "./initialProducts";
-import Footer from "./layouts/Footer";
+
 
 export default function PriceTracker() {
   const [products, setProducts] = useState(initialProducts);
@@ -61,7 +61,7 @@ export default function PriceTracker() {
       {/* Decorative top stripe */}
       <div className="h-2 bg-linear-to-r from-green-600 via-red-600 to-green-600" />
 
-      {/* Header */}
+      {/* Header Part*/}
       <header className="bg-green-800 text-white shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 opacity-10"
           style={{

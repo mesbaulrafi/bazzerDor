@@ -1,4 +1,4 @@
-# Chassi Bajderdoor
+# Chassi Bajder
 
 A website featuring daily prices of everyday products.
 

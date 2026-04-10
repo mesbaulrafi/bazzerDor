@@ -6,7 +6,8 @@ const About = () => {
     <>
       <div className="bg-[#fffbeb] text-black py-10">
         <Containar>
-          <h2 className="text-center font-bold text-4xl py-10">About </h2>
+          <h2 className="text-center font-bold text-4xl py-10">আমাদের সম্পর্কে (About Us) </h2>
+          {/* Text one */}
           <div class="  p-8">
             <h2 class="text-xl font-bold mb-4">আমাদের উদ্দেশ্য</h2>
 
@@ -30,6 +31,23 @@ const About = () => {
                 <span class="font-bold">সহজ এক্সেস:</span> মোবাইল এবং ডেস্কটপ
                 উভয় ডিভাইসে সহজে ব্যবহারযোগ্য একটি ইন্টারফেস প্রদান করা যাতে যে
                 কেউ দ্রুত তথ্য পেতে পারেন।
+              </li>
+            </ul>
+          </div>
+          {/* Text Two */}
+          <div class="  p-8">
+            <h2 class="text-xl font-bold mb-4">আমরা যা প্রদান করি</h2>
+
+
+            <ul class="list-disc list-inside space-y-4 ml-2">
+              <li>
+                <span class="font-bold">লাইভ আপডেট:</span> সর্বশেষ বাজারদরের একটি ‘লাইভ’ টিকার যা আপনাকে মুহূর্তের খবর জানাবে।
+              </li>
+              <li>
+                <span class="font-bold">ক্যাটাগরি ভিত্তিক পণ্য:</span> শস্য, ডাল, তেল, সবজি, মাছ, মাংস এবং দুগ্ধজাত পণ্যের আলাদা আলাদা সেকশন।
+              </li>
+              <li>
+                <span class="font-bold">দাম পরিবর্তনের গ্রাফ:</span> পণ্যের দাম বাড়া বা কমার পরিষ্কার পরিসংখ্যান (Price Tracking)।
               </li>
             </ul>
           </div>

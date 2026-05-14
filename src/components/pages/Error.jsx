@@ -4,22 +4,6 @@ const Error = () => {
   return (
     <div className="min-h-screen bg-[#f5f0e8] font-sans">
 
-      {/* Navbar */}
-      <nav className="bg-[#1a7a3c] px-8 flex items-center justify-between h-14">
-        <div className="flex items-center gap-2.5">
-          <div className="bg-white rounded-md w-8 h-8 flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#1a7a3c]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-              <polyline points="9 22 9 12 15 12 15 22" />
-            </svg>
-          </div>
-          <span className="text-white text-lg font-medium">চাসি বাজার</span>
-        </div>
-        <div className="flex gap-6">
-          <a href="#" className="text-white/80 text-sm no-underline hover:text-white transition-colors">Home</a>
-          <a href="#" className="text-white/80 text-sm no-underline hover:text-white transition-colors">About</a>
-        </div>
-      </nav>
 
       {/* Gold accent strip */}
       <div className="h-1 bg-gradient-to-r from-[#c8860a] via-[#e6a820] to-[#c8860a]" />
@@ -88,12 +72,6 @@ const Error = () => {
 
       </div>
 
-      {/* Footer */}
-      <div className="fixed bottom-0 left-0 right-0 bg-[#1a7a3c] py-2.5 px-8 flex justify-center items-center">
-        <p className="m-0 text-white/60 text-xs">
-          চাসি বাজার — Daily Market Prices &nbsp;|&nbsp; সমস্যা অব্যাহত থাকলে আমাদের সাথে যোগাযোগ করুন
-        </p>
-      </div>
 
     </div>
   );

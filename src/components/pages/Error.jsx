@@ -6,25 +6,14 @@ const Error = () => {
 
 
       {/* Gold accent strip */}
-      <div className="h-1 bg-gradient-to-r from-[#c8860a] via-[#e6a820] to-[#c8860a]" />
+     
 
       {/* Error content */}
       <div className="flex flex-col items-center justify-center px-6 py-20 text-center pb-24">
 
-        {/* Icon */}
-        <div className="relative w-28 h-28 rounded-full bg-white border-2 border-[#e8e0d0] flex items-center justify-center mb-8">
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-14 h-14 text-[#c8860a]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="11" cy="11" r="8" />
-            <line x1="21" y1="21" x2="16.65" y2="16.65" />
-            <line x1="8" y1="11" x2="14" y2="11" />
-          </svg>
-          <div className="absolute -top-1.5 -right-1.5 w-8 h-8 rounded-full bg-[#cc3333] flex items-center justify-center border-2 border-[#f5f0e8]">
-            <span className="text-white text-base font-bold leading-none">!</span>
-          </div>
-        </div>
 
         {/* Error code */}
-        <div className="text-8xl font-medium text-[#1a7a3c] leading-none mb-1 tracking-tighter">৪০৪</div>
+        <div className="text-8xl font-medium text-[#b54e4e] leading-none mb-1 tracking-tighter">৪০৪</div>
         <div className="text-xs text-gray-400 tracking-widest uppercase mb-8">Page Not Found</div>
 
         {/* Message card */}

@@ -61,7 +61,7 @@ export default function PriceTracker() {
     
 
       {/* Header Part*/}
-      <header className="bg-green-800 text-white shadow-2xl relative overflow-hidden">
+      <header className="bg-green-700 text-white shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: "repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%)",

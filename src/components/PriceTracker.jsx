@@ -58,8 +58,7 @@ export default function PriceTracker() {
 
   return (
     <div className="min-h-screen bg-amber-50 font-sans" style={{ fontFamily: "'Segoe UI', 'Noto Sans Bengali', sans-serif" }}>
-      {/* Decorative top stripe */}
-      <div className="h-2 bg-linear-to-r from-green-600 via-red-600 to-green-600" />
+    
 
       {/* Header Part*/}
       <header className="bg-green-800 text-white shadow-2xl relative overflow-hidden">

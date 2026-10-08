@@ -84,7 +84,7 @@ export default function PriceTracker() {
               </div>
             </div>
             <div className="text-right">
-              <div className="bg-green-700 rounded-xl px-4 py-3 inline-block border border-green-500">
+              <div className="bg-green-700 rounded-xl px-4 py-3 inline-block border border-green-400">
                 <p className="text-green-300 text-xs uppercase tracking-widest">আজকের তারিখ</p>
                 <p className="text-white font-bold text-sm mt-1">{today}</p>
                 <p className="text-green-300 text-xs mt-1">

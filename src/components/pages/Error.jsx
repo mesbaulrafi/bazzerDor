@@ -17,7 +17,7 @@ const Error = () => {
             পণ্য বা পেজটি খুঁজে পাওয়া যায়নি!
           </h2>
           <p className="text-sm text-gray-500 leading-relaxed">
-            আপনি যে পেজটি খুঁজছেন সেটি সরানো হয়েছে, নাম পরিবর্তন করা হয়েছে, অথবা এটি কখনো ছিল না।
+            আপনি যে পেজটি খুঁজছেন সেটি সরানো হয়েছে, নাম পরিবর্তন করা হয়েছে, ।
           </p>
           <p className="text-xs text-gray-300 mt-4 italic">
             The page you're looking for doesn't exist or has been moved.
